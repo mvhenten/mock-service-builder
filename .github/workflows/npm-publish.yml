@@ -28,6 +28,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
+      - uses: phips28/gh-action-bump-version@v10.1.1
       - run: npm ci
       - run: npm publish
         env:
