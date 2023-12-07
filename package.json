@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "main": "builder.js",
   "type": "module",
-  "private": true,
   "scripts": {
       "test": "prettier -c *.ts && eslint *.ts && ava",
       "clean": "rm -rf node_modules *.js",
