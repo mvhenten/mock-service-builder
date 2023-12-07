@@ -1,6 +1,6 @@
 {
   "name": "mock-service-builder",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "builder.js",
   "type": "module",
   "private": true,
