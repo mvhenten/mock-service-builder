@@ -9,7 +9,8 @@
     "fix": "prettier -w *.ts",
     "test:watch": "ava -w",
     "prepare": "tsc",
-    "prepack": "npm test"
+    "prepack": "npm test",
+    "publish:ifneeded": "sh publish.sh"
   },
   "devDependencies": {
     "@ava/typescript": "^3.0.1",
